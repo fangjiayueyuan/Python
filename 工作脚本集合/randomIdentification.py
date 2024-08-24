@@ -13,7 +13,7 @@ def generate_64bit_random_integer_as_string():
     """生成一个64位随机整数，并将其转换为字符串"""
     # 64位整数的范围是从0到2^64 - 1
     min_value = 0
-    max_value = 2**64 - 1
+    max_value = 2**32 - 1
     random_integer = random.randint(min_value, max_value)
     return str(random_integer)
 
